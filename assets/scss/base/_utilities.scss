@@ -1,0 +1,152 @@
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-white {
+  color: $color-white !important;
+}
+
+.text-primary {
+  color: $color-primary;
+}
+
+.text-secondary {
+  color: $color-secondary;
+}
+
+.gutterX {
+  padding-left: $gutterX;
+  padding-right: $gutterX;
+
+  @include media($breaking-point-2) {
+    padding-left: $gutterX-sm;
+    padding-right: $gutterX-sm;
+  }
+  &--sm {
+    padding-left: $gutterX-sm;
+    padding-right: $gutterX-sm;
+  }
+}
+
+.gutterY {
+  padding-top: $big-gap;
+  &--bottom {
+    padding-bottom: $big-gap;
+  }
+  &--lg {
+    padding-top: $lg-gap;
+    padding-bottom: $lg-gap;
+  }
+  &--md {
+    padding-top: $md-gap;
+    padding-bottom: $md-gap;
+  }
+  &--sm {
+    padding-top: $sm-gap;
+    padding-bottom: $sm-gap;
+  }
+  &--no-bottom {
+    padding-bottom: 0;
+  }
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.d-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-none {
+  display: none;
+}
+
+.big-mar-bt {
+  margin-bottom: $big-gap;
+}
+
+.big-mar-tp {
+  margin-top: $big-gap;
+}
+
+.lg-mar-bt {
+  margin-bottom: $lg-gap;
+}
+
+.lg-mar-tp {
+  margin-top: $lg-gap;
+}
+
+.sm-mar-bt {
+  margin-bottom: $sm-gap;
+}
+
+.sm-mar-tp {
+  margin-top: $sm-gap;
+}
+
+.bg-primary {
+  background-color: $color-primary;
+}
+
+.bg-secondary {
+  background-color: $color-secondary;
+}
+
+.bg-white-dim {
+  background-color: #fafafa;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-normal {
+  font-weight: normal;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.bg-dim {
+  background-color: #f8f9fa;
+}

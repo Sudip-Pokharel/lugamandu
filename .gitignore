@@ -1,0 +1,5 @@
+/node_modules
+yarn.lock
+# gulpfile.js
+# assets/scss
+# assets/css/style.css

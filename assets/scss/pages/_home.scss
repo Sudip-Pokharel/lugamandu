@@ -1,0 +1,25 @@
+.collection {
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  &__item {
+    flex-basis: 24%;
+  }
+}
+
+.new-arrival {
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  &__item {
+    flex-basis: 24%;
+  }
+}

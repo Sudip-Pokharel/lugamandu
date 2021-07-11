@@ -1,0 +1,44 @@
+.product {
+  margin-bottom: $lg-gap;
+
+  &__image-box {
+    height: 47.4rem;
+    overflow: hidden;
+    img {
+      width: 100%;
+      transform: scale(1);
+      transition: all 0.3s ease-in-out;
+    }
+  }
+
+  &__name {
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: $color-text;
+    font-family: $default-font;
+
+    transition: all 0.3s ease-in-out;
+  }
+
+  &__price {
+    font-size: 1.8rem;
+    font-weight: normal;
+    color: $color-text-light;
+    font-family: $title-font;
+  }
+
+  &__link {
+    display: block;
+    &:hover {
+      .product__image-box {
+        img {
+          transform: scale(1.07);
+        }
+      }
+
+      .product__name {
+        color: $color-text-dark;
+      }
+    }
+  }
+}

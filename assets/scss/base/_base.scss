@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+
+  box-sizing: border-box;
+
+  // @include media($breaking-point-2) {
+  //   font-size: 58%;
+  // }
+
+  // @include media($breaking-point-3) {
+  //   font-size: 57%;
+  // }
+
+  // @include media($breaking-point-4) {
+  //   font-size: 52%;
+  // }
+}
+
+body {
+  position: relative;
+
+  margin: 0 auto;
+  max-width: 144rem;
+
+  line-height: 1.6;
+  font-size: 1.5rem;
+  color: $color-text;
+  font-weight: normal;
+  font-family: $default-font;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
