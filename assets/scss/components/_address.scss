@@ -2,6 +2,7 @@
   @include flexAlignCjustifyC();
 
   &__link {
+    @include flexAlignCjustifyC();
     &:not(:last-child) {
       margin-right: 2.1rem;
     }

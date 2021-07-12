@@ -1,13 +1,67 @@
 .collection {
   &__list {
+    gap: 1%;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-between;
+
+    @include media($breaking-point-1) {
+      gap: 2%;
+      justify-content: flex-start;
+    }
+
+    @include media($breaking-point-2) {
+      gap: 2%;
+      justify-content: space-between;
+    }
   }
 
   &__item {
     flex-basis: 24%;
+
+    @include media($breaking-point-1) {
+      flex-basis: 31%;
+    }
+
+    @include media($breaking-point-2) {
+      flex-basis: 48%;
+    }
+  }
+}
+
+.follow-us {
+  background-color: $color-secondary;
+
+  &__container {
+    max-width: 66rem;
+    margin: 0 auto;
+  }
+
+  &__title {
+    line-height: 4.9rem;
+  }
+
+  &__address-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 500;
+    font-size: 2.4rem;
+
+    @include media($breaking-point-1) {
+      font-size: 2.3rem;
+    }
+    @include media($breaking-point-2) {
+      font-size: 2.2rem;
+    }
+    @include media($breaking-point-3) {
+      font-size: 2.1rem;
+    }
+    @include media($breaking-point-4) {
+      font-size: 2rem;
+    }
   }
 }
 
@@ -21,5 +75,13 @@
 
   &__item {
     flex-basis: 24%;
+
+    @include media($breaking-point-1) {
+      flex-basis: 32%;
+    }
+
+    @include media($breaking-point-2) {
+      flex-basis: 49%;
+    }
   }
 }

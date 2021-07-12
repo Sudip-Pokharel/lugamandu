@@ -12,17 +12,21 @@ html {
 
   box-sizing: border-box;
 
-  // @include media($breaking-point-2) {
-  //   font-size: 58%;
-  // }
+  @include media($breaking-point-1) {
+    font-size: 60%;
+  }
 
-  // @include media($breaking-point-3) {
-  //   font-size: 57%;
-  // }
+  @include media($breaking-point-2) {
+    font-size: 58%;
+  }
 
-  // @include media($breaking-point-4) {
-  //   font-size: 52%;
-  // }
+  @include media($breaking-point-3) {
+    font-size: 56%;
+  }
+
+  @include media($breaking-point-4) {
+    font-size: 52%;
+  }
 }
 
 body {

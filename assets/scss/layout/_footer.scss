@@ -1,35 +1,16 @@
 .footer {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  background-color: $color-bg-light;
+  &__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
 
-  &__link {
-    font-size: 1.4rem;
-    font-weight: normal;
-    color: $color-primary;
+  &__logo {
+    width: 23.8rem;
+  }
 
-    &:not(:last-child) {
-      margin-right: 2rem;
-    }
-
-    &--main {
-      position: relative;
-
-      @include media($breaking-point-3) {
-        display: block;
-        &::before {
-          display: none;
-        }
-      }
-
-      &::before {
-        content: '|';
-
-        top: 50%;
-        right: -1.2rem;
-        position: absolute;
-
-        transform: translateY(-50%);
-      }
-    }
+  &__nav {
   }
 }

@@ -1,0 +1,22 @@
+.nav {
+  &__list {
+    @include flexAlignCjustifyC();
+  }
+  &__item {
+    &:not(:last-child) {
+      margin-right: 3.3rem;
+    }
+  }
+  &__link {
+    font-size: 1.5rem;
+    color: $color-text;
+    font-weight: 500;
+    font-family: $default-font;
+
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      color: $color-text-dark;
+    }
+  }
+}

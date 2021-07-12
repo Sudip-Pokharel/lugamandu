@@ -107,6 +107,14 @@
   margin-top: $lg-gap;
 }
 
+.md-mar-bt {
+  margin-bottom: $md-gap;
+}
+
+.md-mar-tp {
+  margin-top: $md-gap;
+}
+
 .sm-mar-bt {
   margin-bottom: $sm-gap;
 }
@@ -149,4 +157,12 @@
 
 .bg-dim {
   background-color: #f8f9fa;
+}
+
+.w-bold {
+  font-weight: bold;
+}
+
+.text-none {
+  text-transform: none;
 }

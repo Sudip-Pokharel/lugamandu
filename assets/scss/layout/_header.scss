@@ -12,32 +12,12 @@
     width: 23.8rem;
   }
 
-  .nav {
+  &__nav {
     left: 50%;
     top: 30px;
     position: absolute;
 
     transform: translateX(-50%);
-    &__list {
-      @include flexAlignCjustifyC();
-    }
-    &__item {
-      &:not(:last-child) {
-        margin-right: 3.3rem;
-      }
-    }
-    &__link {
-      font-size: 1.5rem;
-      color: $color-text;
-      font-weight: 500;
-      font-family: $default-font;
-
-      transition: all 0.3s ease-in-out;
-
-      &:hover {
-        color: $color-text-dark;
-      }
-    }
   }
 
   .hero {
@@ -46,13 +26,34 @@
 
     &__item {
       flex-basis: 32%;
-      img {
-        width: 100%;
+
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      @include media($breaking-point-1) {
+        flex-basis: 24%;
+      }
+      @include media($breaking-point-2) {
+        flex-basis: 19%;
+      }
+      @include media(580px) {
+        flex-basis: 0;
       }
 
       &--content {
         padding: 4rem 3.6rem;
         background-color: $color-secondary;
+
+        @include media($breaking-point-1) {
+          flex-basis: 49%;
+        }
+        @include media($breaking-point-2) {
+          flex-basis: 59%;
+        }
+        @include media(580px) {
+          flex-basis: calc(100% - 4rem);
+        }
       }
 
       &__heading {
