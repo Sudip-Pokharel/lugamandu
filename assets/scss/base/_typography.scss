@@ -17,6 +17,7 @@
     }
     @include media($breaking-point-3) {
       font-size: 3.8rem;
+      line-height: 5rem;
     }
     @include media($breaking-point-4) {
       font-size: 3.2rem;

@@ -27,6 +27,10 @@
     @include media($breaking-point-2) {
       flex-basis: 48%;
     }
+
+    @include media($breaking-point-4) {
+      flex-basis: 100%;
+    }
   }
 }
 
@@ -40,6 +44,10 @@
 
   &__title {
     line-height: 4.9rem;
+
+    @include media($breaking-point-3) {
+      line-height: 4rem;
+    }
   }
 
   &__address-box {
@@ -82,6 +90,10 @@
 
     @include media($breaking-point-2) {
       flex-basis: 49%;
+    }
+
+    @include media($breaking-point-4) {
+      flex-basis: 100%;
     }
   }
 }
