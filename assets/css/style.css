@@ -499,8 +499,8 @@ ul {
               flex-basis: 59%; } }
       @media (max-width: 580px) {
         .header .hero__item--content {
-          -ms-flex-preferred-size: calc(100% - 4rem);
-              flex-basis: calc(100% - 4rem); } }
+          -ms-flex-preferred-size: calc(100% - 3rem);
+              flex-basis: calc(100% - 3rem); } }
     .header .hero__item__heading {
       margin-bottom: 2.4rem; }
 
@@ -590,7 +590,8 @@ ul {
           flex-basis: 100%; } }
 
 .follow-us {
-  background-color: #f5e6c1; }
+  background-color: #f5e6c1;
+  padding: 0 1.5rem; }
   .follow-us__container {
     max-width: 66rem;
     margin: 0 auto; }

@@ -103,7 +103,7 @@
           flex-basis: 59%;
         }
         @include media(580px) {
-          flex-basis: calc(100% - 4rem);
+          flex-basis: calc(100% - 3rem);
         }
       }
 
