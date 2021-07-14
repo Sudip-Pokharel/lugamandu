@@ -58,7 +58,9 @@
 html {
   font-size: 62.5%;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-padding-top: 2.4rem; }
   @media (max-width: 991px) {
     html {
       font-size: 60%; } }

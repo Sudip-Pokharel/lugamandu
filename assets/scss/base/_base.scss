@@ -11,6 +11,8 @@ html {
   font-size: 62.5%;
 
   box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-padding-top: $md-gap;
 
   @include media($breaking-point-1) {
     font-size: 60%;
