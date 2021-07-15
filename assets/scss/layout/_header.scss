@@ -136,7 +136,7 @@
 body.menu--open {
   @include media($breaking-point-1) {
     .header__navigation {
-      height: 322px;
+      height: 350px;
       transition: all 0.3s ease-in-out;
     }
     .header__nav {

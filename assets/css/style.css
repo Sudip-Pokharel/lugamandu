@@ -534,7 +534,7 @@ ul {
 
 @media (max-width: 991px) {
   body.menu--open .header__navigation {
-    height: 322px;
+    height: 350px;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out; }
